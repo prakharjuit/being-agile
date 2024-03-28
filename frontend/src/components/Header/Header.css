@@ -6,45 +6,42 @@
     z-index: 301;
 }
 
-.image-button1 {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 180px;
-    height: 41px;
-    margin-top: -3929px;
-    margin-left: -20246px;
-    border-radius: 10px;
-    background: url("../../pictures/button1.png") center center no-repeat;
-    background-size: cover;
-    color: transparent;
-    border: none;
-    cursor: pointer;
-    color: #1C62A4;
-}
+.container {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-around; 
+    padding:5% 20%;
+    margin: 1px 1px ;
+  }
 
-.image-button2 {
-    display: flex;
+  .myButton {
+	background-color:#1c62a4;
+	border-radius:6px;
+	
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:18px;
+	font-weight:bold;
     align-items: center;
-    justify-content: center;
-    width: 180px;
-    height: 41px;
-    margin-top: -3929px;
-    margin-left: 29px; /* Space between buttons */
-    border-radius: 10px;
-    background: url("../../pictures/button2.png") center center no-repeat;
-    background-size: cover;
-    color: transparent;
-    border: none;
-    cursor: pointer;
-    color: #1C62A4;
+    padding: 10px
 }
+.myButton:hover {
+	background-color:#16499c;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}  
+  
+
+
 
 .whatsapp {
     width: 56px;
     height: 58px;
     
-    display: flex;
 }
 
 .content {
@@ -55,8 +52,11 @@
     width: 100%;
     height: 582px;
     top: -4360px;
-    left: -20756px;
+   
     background-image: url('../../pictures/header.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     background-color: rgba(255, 255, 255, 0.67);
 }
 
@@ -105,6 +105,7 @@
     align-self: flex-start;
     margin-left: 342px;
 }
+
 .hat{
     width: 56px;
     height: 53px;
