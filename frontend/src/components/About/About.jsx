@@ -11,7 +11,9 @@ const About = () => {
     <div className="about">
       <h1 className="text-3xl mb-1">Why BeingAgile?</h1>
       <div className="flex flex-wrap mb-8 s1 p-10 m-28">
+        
         <div className="">
+          
           <div class="max-w-60 rounded-[40px] overflow-hidden shadow-2xl">
             <img
               className="w-20 ml-20"
@@ -66,8 +68,7 @@ const About = () => {
           </div>
         </div>
       </div>
-      <div className="stripe my-32"></div>
-      <div className="flex flex-wrap mb-8 s1 p-10 m-28">
+      <div className="mt-72 flex flex-wrap mb-8 s1 p-10 m-28">
         <div class="max-w-60 rounded-[40px] overflow-hidden shadow-2xl">
           <img
             className="w-20 ml-20"
@@ -102,9 +103,9 @@ const About = () => {
         </div>
       </div>
       {/* <div className="stripe my-32 mx-40"></div> */}
-        <p className="heading text-4xl p-32 font-prociono font-normal leading-8 tracking-normal text-center w-959 h-36.46 ml-72">
-          Our Fundamentals
-        </p>
+      <p className="heading text-4xl p-32 font-prociono font-normal leading-8 tracking-normal text-center w-959 h-36.46 ml-72">
+        Our Fundamentals
+      </p>
       <div className="fundamentals flex flex-wrap ">
         <div className="flex ml-20">
           <div className="text-center lg:w-1/3 ">

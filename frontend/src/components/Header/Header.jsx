@@ -10,8 +10,9 @@ const Header = () => {
   return (
     <>
       
-      <div className='box'>
-
+      <div className='box text-white font-bold align-text-bottom justify-center '>
+        <p className='t'> Prices as low as $495 | Unlock your potential on a budget!
+           Ends in 4h 32m 20s!.</p>
       </div>
       <div className='content'>
         <div className='inside'>

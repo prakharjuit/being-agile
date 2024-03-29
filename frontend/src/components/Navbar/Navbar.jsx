@@ -4,7 +4,6 @@ import './Navbar.css';
 
 const Navbar = () => {
   return (
-   
     <>
     <nav className='justify-evenly flex'>
       <img src={logo} className='hover:cursor-pointer'/>
