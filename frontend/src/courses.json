@@ -1,0 +1,47 @@
+[
+    {
+        "id":1,
+        "title":"SAFe Scrum Master",
+        "rating":"(6.0)",
+        "price":"$1699"
+
+    },
+    {
+        "id":2,
+        "title":"SAFe POPM",
+        "rating":"(6.0)",
+        "price":"$495"
+
+    },
+    {
+        "id":3,
+        "title":"SAFe Release Train Engineer",
+        "rating":"(5.1)",
+        "price":"$495"
+
+    },
+    {
+        "id":4,
+        "title":"Lean Portfolio Management ",
+        "rating":"(LPM)",
+        "price":"$1699"
+
+
+    },
+    {
+        "id":5,
+        "title":"Leading SAFe ",
+        "rating":"(6.0)",
+        "price":"$495"
+
+
+    },
+    {
+        "id":6,
+        "title":"SAFe Advanced Scrum Master  ",
+        "rating":"(5.1)",
+        "price":"$495"
+
+
+    }
+]
