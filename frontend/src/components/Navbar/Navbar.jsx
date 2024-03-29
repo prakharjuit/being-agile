@@ -6,15 +6,16 @@ const Navbar = () => {
   return (
    
     <>
-    <nav>
-      <img src={logo} className='logo'/>
+    <nav className='justify-evenly flex'>
+      <img src={logo} className='hover:cursor-pointer'/>
       <ul>
-        <li><a href="/">Home</a></li>
-        <li><a href="about">About</a></li>
-        <li><a href="#courses">Courses</a></li>
-        <li><a href="#blogs">Blogs</a></li>
-        <li><a href="teach">Teach With Us</a></li>
-        <li><a href="#contact">Contact</a></li>
+        
+            <li className=''><a href="/">Home</a></li>
+            <li className=''><a href="about">About</a></li>
+            <li className=''><a href="#courses">Courses</a></li>
+            <li className=''><a href="#blogs">Blogs</a></li>
+            <li className='pr-20'><a href="teach">Teach With Us</a></li>
+        <li className='bg-black hover:bg-slate-900 py-1 px-3 rounded'><a className='text-white text-sm' href="#contact">Contact Us</a></li>
       </ul>
     </nav>
     </>
