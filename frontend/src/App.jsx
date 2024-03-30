@@ -4,7 +4,7 @@ import { BrowserRouter,Router,Route,Routes } from 'react-router-dom'
 import  Home  from "./Home"
 import Aboutnav from "./Routes/Aboutnav"
 import Teachwith from "./Routes/Teachwith"
-import Courseroute from "./Routes/Coursesroute"
+import Coursesroute from "./Routes/Coursesroute"
 
 function App() {
   
@@ -16,7 +16,7 @@ function App() {
     <Routes>
     <Route path='/' element={<Home/>}/>
     <Route path='/about' element={<Aboutnav/>}/>
-    <Route path='/course' element={<Courseroute/>}/>
+    <Route path='/courses' element={<Coursesroute/>}/>
     <Route path='/teach' element={<Teachwith/>}/>
     </Routes>
      
