@@ -125,7 +125,11 @@ const Teachwith = () => {
           Become an instructor today
         </p>
       </div>
+<<<<<<< Updated upstream
       <div className="mb-52 flex justify-center items-center">
+=======
+      <div className="flex justify-center items-center mb-60">
+>>>>>>> Stashed changes
         <button
           className="bg-black text-white font-poppins text-lg font-semibold leading-35 text-center"
           style={{ width: "256px", height: "45.5px" }}
