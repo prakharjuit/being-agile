@@ -20,14 +20,14 @@ const Courses = () => {
       </p>
 
       <div className="w-96 h-10">
-        <img src={group} alt="Group" />
+        <img className="rounded-sm" src={group} alt="Group" />
       </div>
       {courseSets.map((set, index) => (
         <div key={index} className="ml-48 w-9/12 grid grid-cols-3 gap-16 mt-28">
           {set.map((course) => (
             <div
               key={course.id}
-              className="shadow-2xl shad rounded-2xl bg-white p-8 px-0 mx-0 hover:shadow-2xl"
+              className="shadow-2xl shad rounded-2xl bg-white p-4 px-0  mx-0 hover:shadow-2xl"
             >
               <img
                 src={images[index]}
@@ -40,11 +40,15 @@ const Courses = () => {
               <p className="text-gray-600 text-center pt-4">
                 <span className="font-bold">{course.rating}</span>
               </p>
-              <p className="text-blue-600 underline text-left pl-4 pt-4">{course.price}</p>
+              <div className="grid grid-cols-2 gap-28">
+              <p className="text-blue-600   underline text-left pl-4 pt-4">{course.price}</p>
+              <a href="#" class="hover:bg-slate-200 border-solid mt-2 rounded-lg border-2 border-black border-spacing-0 p- m-0 w-14 h-8">View</a></div>
             </div>
           ))}
+
         </div>
       ))}
+
     </div>
   );
 };
