@@ -5,6 +5,7 @@ import  Home  from "./Home"
 import Aboutnav from "./Routes/Aboutnav"
 import Teachwith from "./Routes/Teachwith"
 import Coursesroute from "./Routes/Coursesroute"
+import Blogs from "./Routes/Blogs"
 
 function App() {
   
@@ -17,6 +18,7 @@ function App() {
     <Route path='/' element={<Home/>}/>
     <Route path='/about' element={<Aboutnav/>}/>
     <Route path='/courses' element={<Coursesroute/>}/>
+    <Route path='/blogs' element={<Blogs/>}/>
     <Route path='/teach' element={<Teachwith/>}/>
     </Routes>
      
