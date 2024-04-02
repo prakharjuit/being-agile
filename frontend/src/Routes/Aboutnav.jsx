@@ -12,7 +12,7 @@ import service from '../pictures/24-hours-service 1.png'
 const Aboutnav = () => {
   return (
     <div>
-      <div className='w-100% h-456'><img src={Group41}/></div>
+      <div className='w-100% h-456' ><img src={Group41}style={{width:'100%'}}/></div>
       <div className="flex">
         <div className='w-366 h-450 ml-183'><img  src={Rec41} className="w-366 h-450" /></div>
         <div className='w-618 '><p className="font-poppins italic font-semibold text-lg leading-relaxed">Best Scaled Agile Training From Chicago to the World</p>

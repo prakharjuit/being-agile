@@ -49,7 +49,7 @@ const AboveFooter = () => {
       </div>
 <div>
 
-     <p className='connect'>Lets Connect!</p>
+     <p className='connect' style={{marginBottom:'13px'}}>Lets Connect!</p>
      <div className='stripe'>Contact us </div>
      </div>
     </>

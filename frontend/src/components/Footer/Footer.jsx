@@ -15,12 +15,12 @@ const Footer = () => {
             src={logo}
             className="mb-4 ml-4"
             alt="Logo"
-            style={{ width: '331.71px', height: '97px', marginLeft: '11px' }}
+            style={{ width: '331.71px', height: '97px', marginLeft: '11px' ,marginTop:'96px'}}
           />
         </div>
         
-        <div className="w-230 h-38 text-poppins text-25 font-semibold leading-38 text-gray-500 mb-4">
-          All rights reserved
+        <div className=" text-poppins  font-bold leading-38 text-gray-500 mb-4"style={{ width: '230px', height: 'px38', marginLeft: '11px' ,marginTop:'100px',fontSize: '25px',fontWeight:'600'}}>
+          <p >All rights reserved</p>
         </div>
       </div>
 
