@@ -16,6 +16,7 @@ const Navbar = () => {
             <li className='pr-20'><a href="teach">Teach With Us</a></li>
         <li className='bg-black hover:bg-slate-900 py-1 px-3 rounded'><a className='text-white text-sm' href="#contact">Contact Us</a></li>
       </ul>
+      
     </nav>
     </>
   
